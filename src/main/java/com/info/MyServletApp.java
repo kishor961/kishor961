@@ -15,7 +15,7 @@ public class MyServletApp extends GenericServlet {
 		PrintWriter writer = res.getWriter();
 		writer.print("Hello world!");
 		writer.print("my name is kishor");
-		writer.print("new change");
+		int a=100;
 	}
 
 }
